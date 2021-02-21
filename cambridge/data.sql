@@ -37,4 +37,3 @@ create table lots AS select min(PID) as pid,
  null as bbox
 from properties 
 group by GISID;
-
